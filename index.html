@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Moderno | Cucina Italiana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header con Navbar -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Risto<span>Rante</span></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">Chi Siamo</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contatti.html" class="active">Contatti</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Esperienza culinaria indimenticabile</h1>
+                <p>Piatti autentici preparati con ingredienti freschi e di qualità</p>
+                <a href="menu.html" class="btn">Scopri il Menu</a>
+                <a href="#contact" class="btn btn-outline">Prenota un Tavolo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<!-- Menu Preview Section -->
+    <section class="menu-preview" id="menu">
+        <div class="container">
+            <h2 class="section-title">Le Nostre Specialità</h2>
+            
+            <div class="highlight-cards" id="highlightCards">
+                <!-- Le card verranno caricate qui automaticamente -->
+            </div>
+            
+            <div class="text-center">
+                <a href="menu.html" class="btn btn-primary">Scopri il Menu Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Chi Siamo</h2>
+                    <p>Fondato nel 2010, il Ristorante Moderno è diventato un punto di riferimento per gli amanti della buona cucina. Il nostro chef, con oltre 20 anni di esperienza, combina tradizione e innovazione per creare piatti unici.</p>
+                    <p>Utilizziamo solo ingredienti locali e di stagione, selezionati con cura dai migliori produttori della regione.</p>
+                    <a href="#contact" class="btn btn-primary">Contattaci</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Interno del ristorante">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Ristorante Moderno</h3>
+                    <p>Via Roma 123, 00100 Roma</p>
+                    <p>P.IVA: 12345678901</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Orari</h3>
+                    <p>Lun-Ven: 12:00 - 15:00 / 19:00 - 23:00</p>
+                    <p>Sab-Dom: 12:00 - 23:00</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contatti</h3>
+                    <p><i class="fas fa-phone"></i> +39 06 1234567</p>
+                    <p><i class="fas fa-envelope"></i> info@ristorantemoderno.it</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Seguici</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ristorante Moderno. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/menu-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
