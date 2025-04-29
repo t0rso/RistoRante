@@ -1,7 +1,7 @@
 /* Menu Hero Section */
 .menu-hero {
     height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/menu-hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../immagini/hero/hero-1.jpg') no-repeat center center/cover;
     color: var(--white-color);
     display: flex;
     align-items: center;
