@@ -1,7 +1,7 @@
 /* About Hero */
 .about-hero {
     height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../immagini/about/hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../immagini/about/hero.jpeg') no-repeat center center/cover;
     color: var(--white-color);
     display: flex;
     align-items: center;
